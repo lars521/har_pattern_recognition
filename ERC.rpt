@@ -1,0 +1,30 @@
+ERC report (2026-06-15T16:58:37, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[lib_symbol_mismatch]: 符号 'MPU6050' 与来源库 'My_common' 中的符号存在差异
+    ; warning
+    @(2800 mils, 1950 mils): Symbol U1 [MPU6050]
+[lib_symbol_mismatch]: 符号 '+3V3' 与来源库 'power' 中的符号存在差异
+    ; warning
+    @(3100 mils, 900 mils): Symbol #PWR02 [+3V3]
+[lib_symbol_mismatch]: 符号 'GND' 与来源库 'power' 中的符号存在差异
+    ; warning
+    @(3250 mils, 3450 mils): Symbol #PWR07 [GND]
+[lib_symbol_mismatch]: 符号 '+3V3' 与来源库 'power' 中的符号存在差异
+    ; warning
+    @(4250 mils, 2900 mils): Symbol #PWR03 [+3V3]
+[lib_symbol_mismatch]: 符号 'GND' 与来源库 'power' 中的符号存在差异
+    ; warning
+    @(4650 mils, 3950 mils): Symbol #PWR06 [GND]
+[lib_symbol_mismatch]: 符号 'HMC5883L' 与来源库 'My_common' 中的符号存在差异
+    ; warning
+    @(4750 mils, 2200 mils): Symbol U2 [HMC5883L]
+
+ ** ERC messages: 6  Errors 0  Warnings 6
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
